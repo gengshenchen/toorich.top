@@ -1,8 +1,8 @@
-import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
+import Image, { type StaticImageData } from 'next/image'
+
 
 import { BriefcaseIcon } from '~/assets'
-
 import evoclogo from '~/assets/company/evoc.jpg'
 import hanslogo from '~/assets/company/hans.png'
 import pinganlogo from '~/assets/company/pingan.png'
