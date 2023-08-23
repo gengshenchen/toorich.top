@@ -6,6 +6,10 @@ import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
 import abletiveLogo from '~/assets/company/abletive.png'
 import vvsLogo from '~/assets/company/vvs.png'
 import zolplayLogo from '~/assets/company/zolplay.png'
+import evoclogo from '~/assets/company/evoc.jpg'
+import hanslogo from '~/assets/company/hans.png'
+import pinganlogo from '~/assets/company/pingan.png'
+
 
 type Resume = {
   company: string
@@ -15,36 +19,44 @@ type Resume = {
   logo: StaticImageData
 }
 const resume: Resume[] = [
+  // {
+  //   company: 'Insta360',
+  //   title: '高级软件工程师',
+  //   logo: zolplayLogo,
+  //   start: '2022',
+  //   end: '2022',
+  //   // end: {
+  //   //   label: '至今',
+  //   //   dateTime: new Date().getFullYear(),
+  //   // },
+  // },
   {
-    company: '深圳市佐玩信息技术有限公司',
-    title: '创始人 CEO',
-    logo: zolplayLogo,
+    company: 'PingAn Group',
+    title: '高级软件工程师',
+    logo: pinganlogo,
     start: '2021',
-    end: {
-      label: '至今',
-      dateTime: new Date().getFullYear(),
-    },
+    end: '2022',
   },
   {
-    company: 'very very spaceship',
-    title: '软件工程师',
-    logo: vvsLogo,
-    start: '2018',
+    company: 'Hans Motor',
+    title: '高级软件工程师',
+    logo: hanslogo,
+    start: '2020',
+    end: '2021',
+  },
+  {
+    company: 'Xinbaili',
+    title: '高级软件工程师',
+    logo: pinganlogo,
+    start: '2019',
     end: '2020',
   },
   {
-    company: '8ninths Inc.',
-    title: 'AR & 全栈工程师',
-    logo: eightNinthsLogo,
-    start: '2017',
-    end: '2018',
-  },
-  {
-    company: 'Abletive',
-    title: '创始人',
-    logo: abletiveLogo,
-    start: '2014',
-    end: '2016',
+    company: 'Evoc',
+    title: '软件工程师',
+    logo: evoclogo,
+    start: '2015',
+    end: '2019',
   },
 ]
 

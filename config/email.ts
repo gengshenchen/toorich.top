@@ -1,7 +1,7 @@
 export const emailConfig = {
-  from: 'hi@cali.so',
+  from: 'chengengshen@toorich.top',
   baseUrl:
     process.env.VERCEL_ENV === 'production'
-      ? `https://cali.so`
-      : 'http://localhost:3000',
+      ? `https://toorich.top`
+      : 'http://localhost:3333',
 }

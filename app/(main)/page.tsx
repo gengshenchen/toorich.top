@@ -14,7 +14,7 @@ export default function BlogHomePage() {
       <Container className="mt-10">
         <Headline />
       </Container>
-      <Photos />
+      {/* <Photos /> */}
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-6 pt-6">
@@ -25,7 +25,7 @@ export default function BlogHomePage() {
             <BlogPosts />
           </div>
           <aside className="space-y-10 lg:sticky lg:top-8 lg:h-fit lg:pl-16 xl:pl-20">
-            <Newsletter />
+            {/* <Newsletter /> */}
             <Resume />
           </aside>
         </div>
