@@ -102,7 +102,7 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://twitter.com/karlcreep"
+          href="https://twitter.com/gengshenchen"
           aria-label="我的推特"
           platform="twitter"
         />
@@ -117,12 +117,12 @@ export function Headline() {
           platform="bilibili"
         /> */}
         <SocialLink
-          href="https://github.com/karlcreep"
+          href="https://github.com/gengshenchen"
           aria-label="我的 GitHub"
           platform="github"
         />
         <SocialLink
-          href="https://t.me/karlcreep"
+          href="https://t.me/gengshenchen"
           aria-label="我的 Telegram"
           platform="telegram"
         />
