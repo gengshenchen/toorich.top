@@ -83,8 +83,8 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 karl，热爱摇滚乐，热爱编程技术，憎恨一切价值观低下的产物，
-          认真负责，对代码质量有追求。喜好专研，向往自由，普普通通的人。
+          我是 karl，热爱摇滚乐，热爱编程技术，憎恨一切价值观低下的产物。
+          认真负责，对代码质量有追求。喜好钻研，向往自由，普普通通的人。
           {/* <PeekabooLink href="https://toorich.top">toorich</PeekabooLink> */}
 
         </Balancer>
